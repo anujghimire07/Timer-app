@@ -20,7 +20,7 @@ function App() {
 
   return (
     <>
-      <div className="time">{time}</div>
+      <div className="time">{time}s</div>
 
       <div className="btncontainer">
         <div className="start">
