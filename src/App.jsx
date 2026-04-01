@@ -4,7 +4,6 @@ import "./App.css";
 function App() {
   const [time, settime] = useState(0);
   const [value, setvalue] = useState(false);
-  const [status, setstatus] = useState("pause");
 
   useEffect(() => {
     let id;
@@ -13,7 +12,7 @@ function App() {
         settime((t) => t + 1);
       }, 1000);
     }
-    
+
     return () => {
       clearInterval(id);
     };
@@ -41,7 +40,7 @@ function App() {
               setvalue(false);
             }}
           >
-            {status}
+            pause
           </button>
         </div>
         <div className="reset">
