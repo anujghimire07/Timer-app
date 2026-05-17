@@ -20,8 +20,9 @@ function App() {
 
   return (
     <>
+    <h1 className="time">Timer App</h1>
       <div className="time">{time}s</div>
-      <h1>Timer App</h1>
+      
       <div className="btncontainer">
         <div className="start">
           <button
